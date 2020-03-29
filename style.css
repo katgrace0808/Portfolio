@@ -1,5 +1,5 @@
 body {
-    background-color: #85e7d2;
+    background-color: #85e7d280;
     font-family: sans-serif;
 }
 
@@ -16,8 +16,12 @@ body {
 }
 
 .col-md-8,
-h1 {
+#contact {
     background-color: white;
+}
+
+#aboutme {
+    color: black;
 }
 
 .btn-custom {
