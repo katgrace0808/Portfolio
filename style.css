@@ -1,0 +1,21 @@
+body {
+    background-color: #85e7d2;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.col-md-8,
+h1 {
+    background-color: white;
+}
+
+.btn-custom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0;
+    background-color: #09816d;
+}
+
