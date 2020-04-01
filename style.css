@@ -1,6 +1,7 @@
 body {
     background-color: #85e7d280;
     font-family: sans-serif;
+    padding-bottom: 50px;
 }
 
 .navbar-brand {
@@ -47,7 +48,7 @@ body {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -57,6 +58,3 @@ footer {
     
 }
 
-.email {
-    padding: 20px;
-}
