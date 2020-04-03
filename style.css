@@ -4,10 +4,6 @@ body {
     padding-bottom: 50px;
 }
 
-.navbar-brand {
-    margin-left: 375px;
-}
-
 .navbar-nav {
     margin-right: 500px;
 }
@@ -61,6 +57,10 @@ footer {
     background-color: whitesmoke;
     color: black;
     text-align: center;
-    
 }
 
+@media screen and (max-width: 576px) {
+    body {
+        width: 100%;
+    }
+}
