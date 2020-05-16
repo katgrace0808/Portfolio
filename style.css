@@ -58,7 +58,7 @@ body {
 }
 
 .col-md-4 {
-    padding: 20px;
+    padding: 50px;
 }
 
 footer {
@@ -74,4 +74,5 @@ footer {
 
 .footer-email {
     padding-left: 10px;
+
 }
