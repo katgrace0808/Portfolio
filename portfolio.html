@@ -7,29 +7,20 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Kathryn Teall</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-    </div>
+
+  <nav class="topnav" id="myTopnav">
+    <a href="#home" class="active">Kathryn Teall</a>
+    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="contact.html">Contact</a>
+    <a class="nav-link" href="#">Portfolio</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </nav>
   <main class="container">
     <header class="row">
@@ -48,8 +39,8 @@
       </article>
       <article class="col-md-4">
         <a href="https://github.com/katgrace0808/Password-Generator">
-          <img src="https://i.pinimg.com/236x/2c/4d/e6/2c4de69dec195f1691a097405c385d3b--koalas-koala-bears.jpg"
-            height="225" width="225" alt="Koala">
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftr2.cbsistatic.com%2Fhub%2Fi%2Fr%2F2017%2F09%2F26%2Fc0be8191-dfe3-43f1-84b0-df02589e5bb4%2Fthumbnail%2F770x578%2F7b5cb8df5bd19a1f77c7a977430e8cf2%2Fpassword-keychain.jpg&f=1&nofb=1"
+            height="225" width="225" alt="Password image">
         </a>
         <aside class="text-block">
           <h4>Password-Generator</h4>
@@ -58,8 +49,8 @@
       <article class="col-md-4">
         <a href="https://github.com/katgrace0808/Simple-Calendar">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSh4HrM8JUG-KikShJOBvzwSXmUlAeZ-cc9-WepXQ4ANmZhIEuq&usqp=CAU"
-            height="225" width="225" alt="Cats">
+            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftemplatelab.com%2Fwp-content%2Fuploads%2F2016%2F06%2Fdaily-planner-template-21.jpg&f=1&nofb=1"
+            height="225" width="225" alt="Daily planner">
         </a>
         <aside class="text-block">
           <h4>Simple-Calendar</h4>
@@ -71,8 +62,8 @@
       <article class="col-md-4">
         <a href="https://github.com/katgrace0808/Weather-Dashboard">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGVXECRDP2v01pbFGORmUNwDivpk5WPioZjnEbbZ9k-z1FBhs-&usqp=CAU"
-            height="225" width="225" alt="Sea Otter">
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.anao.gov.au%2Fsites%2Fdefault%2Ffiles%2Fanao_report%2Fimage%2Fanao-extreme-weather-BOM.jpg&f=1&nofb=1"
+            height="225" width="225" alt="Shelf cloud">
         </a>
         <aside class="text-block">
           <h4>Weather-Dashboard</h4>
@@ -124,7 +115,10 @@
   </main>
   <footer>
     <em>Copyright &copy; 2020, Kathryn Teall. All Rights Reserved</em>
+    <strong class="footer-dots">·</strong>
     <a href="mailto:katgrace0808@gmail.com?subject=Portfolio" class="footer-email">Email</a>
+    <strong class="footer-dots">·</strong>
+    <a href="assets/Kathryn-Teall-Resume.pdf" class="footer-resume">Resume</a>
     <strong class="footer-dots">·</strong>
     <a href="https://www.linkedin.com/in/kathrynteall79688825" class="footer-links">LinkedIn</a>
     <strong class="footer-dots">·</strong>
@@ -132,6 +126,7 @@
     <strong class="footer-dots">·</strong>
     <a class="footer-phone">Phone: (206) 245-4562</a>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
