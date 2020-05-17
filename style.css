@@ -97,8 +97,19 @@ body {
     margin-left: 20px;
 }
 
-.col-md-4 {
+.col-md-4,
+.col-md-6 {
     padding: 20px;
+}
+
+#repositories {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#projects {
+  text-align: center;
+  padding-top: 100px;
 }
 
 footer {
